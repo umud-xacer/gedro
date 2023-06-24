@@ -1,0 +1,115 @@
+body {
+    width: 100%;
+}
+.asosiy {
+    background-color: black;
+}
+.none {
+    text-decoration: none;
+}
+
+.glav {
+    width: 50% !important;
+}
+
+.first-div {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+
+
+.first-line {
+    color:#bfff00;
+    text-shadow: 3px 5px black;
+    letter-spacing: 1.4px;
+    width: 63%;
+    text-align: center;
+    margin-left: 17%;
+    padding-top: 150px;
+}
+
+.second-div {
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/10/15/13/building-839362_1280.jpg);
+    ;
+    height: 610px;
+    background-size: cover;
+}
+
+.image-1 {
+    height: 590px;
+    width: 90%;
+    margin-left: 100px;
+    padding-top: 15px;
+    display: block;
+}
+
+.thrid-div {
+    background-image: url(https://on-desktop.com/wps/2017Nature_Beautiful_aurora_in_the_night_sky__Iceland_120132_.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+
+.last-div {
+    background-image: url(../images/office4jpg.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.yandex-map {
+    margin-left: 100px;
+    padding-top: 20px;
+    height: 590px;
+    width: 80%;
+}
+
+.fifth-div {
+    background-image: url(../images/office6.jpg);
+    background-size: cover;
+    height: 200px;
+    opacity: .5;
+}
+
+.malumot {
+    width: 90%;
+}
+.contact {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        gap: 6px;
+    }
+
+    .name {
+        flex: 1 0 130px;
+        margin: 2% 0 3% 10%;
+        color: aliceblue;
+    }
+
+@media only screen and (max-width : 750px) {
+ body {
+    width: 100%;
+ }
+
+ .yandex-map {
+    margin: 0 0 0 5%;
+    height: 400px !important;
+ }
+ .second-div {
+    height: 450px;
+ }
+ .thrid-div{
+    height: 450px;
+ }
+ .last-div {
+    height: 450px;
+ }
+}
+
+@media only screen and (max-width : 390px) {
+    .xarita {
+        height: 200px !important;
+    }
+}

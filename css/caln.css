@@ -1,0 +1,242 @@
+body {
+    width: 100vw;
+    
+}
+.none {
+    text-decoration: none;
+}
+.kmain{
+    /* background-image: repeating-conic-gradient(rgb(39, 180, 223) 10%, rgb(13, 25, 132) 20%); */
+    background-image: conic-gradient(rgb(38, 19, 162), rgb(9, 15, 194), rgb(27, 44, 131));
+    backdrop-filter: blur(7px);
+}
+/* 
+.nav_bar{
+    height:4.1vw;
+    width:100%;
+    background-color: black;
+    /* position:sticky!important;
+    color:wheat;
+    margin-top:0px;
+    position: fixed;
+    padding-top: 0px;
+    z-index: 4;
+}
+
+.nav_logo{
+    width:5%;
+    height:4%;
+    display:inline;
+    padding: 10px 10px;
+}
+
+.nav_p{
+    position: absolute;
+    display:inline-block;
+    font-size:1.3rem;
+    top:10%;
+}
+
+.nav_tg{
+    display: inline-block;
+}
+
+.nav_sel{
+    display: inline-block;
+    position:relative !important;
+    display: inline-block;
+    left: 50vw;
+    font-size:1.2rem;
+    padding-left:  20px;
+    top:-40px;
+    letter-spacing:0.1em;
+    cursor:pointer !important;
+    color: white;
+    background-color: black;
+    border:solid 0px black !important;
+    
+}
+.nav_sel{
+    color: blue;
+    border:solid 0px blue !important ;
+     position: relative;
+    top: -50px;
+}
+.nav_op{
+    border:solid 0px blue !important;
+    font-weight: 500;
+   
+}
+.nav_op:hover{
+    color:white;
+}
+
+.nav_ul{
+    display:inline-block;
+}
+
+.nav_li{
+    font-weight: 500;
+    position:relative !important;
+    display: inline-block;
+    left: 50vw;
+    font-size:1.2rem;
+    padding-left:  20px;
+    top:-50px;
+    letter-spacing:0.1em;
+    cursor:pointer !important;
+}
+
+.nav_li:hover{
+    color:white !important;
+} */
+
+.main{
+    background-color: rgb(85, 85, 226);
+    background-size: cover;
+    height: 1500px;
+}
+.hsob1{
+    text-align: center;
+    font-size: 200%;
+    width: 70%;
+    margin-left: 17%;
+    padding-top: 5%;
+    /* margin-top: 20%; */
+}
+.son{
+    /* display: b; */
+    margin-top: 1%;
+    height: 23px;
+    width: 70px;
+    margin-left: 3px;
+    display: inline;
+
+}
+.belgi{
+    display:block ;
+    margin-left: 13%;
+}
+.ikki{
+    display: inline;
+    margin-top: .6%;
+    height: 23px;
+    width: 70px;
+    margin-left: 3px;
+}
+.samp{
+    padding-left: 2%;
+    font-size: 150%;
+    font-weight: 600;
+}
+.btn:hover{
+    border: none;
+    background-color: rgb(249,186,72);
+    font-size: 150%;
+    font-weight: 700;
+    
+}
+.btn{
+    border: none;
+    background-color: rgb(249,186,72);
+    font-size: 150%;
+    font-weight: 700;
+    padding-top: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 1%;
+    
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+    width: 100vd;
+}
+.qiymat{
+    color: yellow;
+    font-size: 150%;
+    font-weight: 600;
+    padding-left: 2%;
+    padding-right:1%;
+}
+.qiymat-p{
+    font-size: 150%;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    width: 100vd;
+    padding-top: 5%;
+}
+.tanlash{
+    text-align: center;
+    font-weight: 800;
+    width: 50%;
+    
+}
+.tanlash-div{
+    display: flex;
+    justify-content: center;
+    width: 100vd;
+}
+.tanlash1{
+    font-size: 80%;
+    font-weight: 800;
+    color: #E26807;
+}
+.kataccor{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.accor{
+    font-size: 150%;
+    text-align: center;
+    display: block;
+    color: green;
+    font-weight: 700;
+}
+
+.accordion-item {
+    width: 80%;
+}
+.btn-accor{
+    border: none;
+    border-radius: 20px;
+    background-color: #E26807;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+    margin-left: 24vw;
+    font-weight: 750;
+    font-size: 150%;
+}
+@media only screen and (max-width : 571px) {
+    .main {
+        height: 1800px;
+    }
+    .hsob1 {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width : 353px) {
+    .main {
+        height: 2000px;
+    }
+    p {
+        font-size: 20px !important;
+    }
+    .hsob1 {
+        font-size: 20px;
+    }
+    .akardiyon {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/caln.css">
+    <link rel="icon" type="image/x-icon" href="../img/logo.ico">
+    <title>hydropower</title>
+</head>
+
+<body>
+    <div class="kmain ">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top fs-4 fw-bold nav-underline "
+      data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="../img/logo.jpg" alt="Logo" width="60" height="55" class="d-inline-block align-text-top">
+      </a>
+          <a class="navbar-brand" href="../index.html">hydropower.uz</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end px-3" id="navbarNav">
+              <ul class="navbar-nav">
+                  <a class="nav-item none" href="../index.html">
+                      <li class="nav-link">Home</li>
+                  </a>
+                  <a class="nav-item none" href="../html/Preakt.html">
+                      <li class="nav-link">Projects</li>
+                  </a>
+                  <a class="nav-item none" href="../html/hudud.html">
+                      <li class="nav-link">Territory</li>
+                  </a>
+                  <!-- <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button"
+                          aria-expanded="false">
+                          <ul id="langTan" class="dropdown-menu" onchange="setLanguage()">
+                              <li><a class="dropdown-item" value="uzbek" onclick="setLang('uzbek')">У</a></li>
+                              <li><a class="dropdown-item" value="russian" onclick="setLang('russian')">Rus</a>
+                              </li>
+                              <li><a class="dropdown-item" value="english" onclick="setLang('english')">Eng</a>
+                              </li>
+                          </ul>
+                      </a>
+
+                  </li> -->
+                  <a class="nav-item none" href="../html/about-sayt.html">
+                      <li class="nav-link">About</li>
+                  </a>
+                  <a class="nav-item none" href="../html/calc.html">
+                      <li class="nav-link">Calculation</li>
+                  </a>
+                  <a class="nav-item none">
+                      <select name="" id="langTan" class="nav_sel nav-link" onchange="setLanguage()">
+                          <option class="nav_op d-inline-block bg-body-tertiary" value="uzbek" onclick="setLang('uzbek')">Uzb</option>
+                          <option class="nav_op d-inline-bloc bg-body-tertiary" value="russian" onclick="setLang('russian')">Rus</option>
+                          <option class="nav_op d-inline-bloc bg-body-tertiary" value="english" onclick="setLang('english')">Eng</option>
+                      </select>
+                  </a>
+              </ul>
+          </div>
+      </div>
+  </nav>
+        <div class="main container-lg">
+            <div class="hsob1">
+                <p style="font-size: 9px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos eaque repellendus recusandae optio pariatur aliquid labore libero ratione cupiditate nesciunt facilis, voluptatum sit praesentium omnis eum vel</p>
+                <p id="hsob"><b id="info"> Kichik gidro elektr stansiya qurish uchun muljallangan
+                        daryo yoki suv oqimining Potensial energiyasini hisoblash</b></p>
+                <p><b id="formula"> P = Q * H * g * n = (kVt/soat)</b></p>
+            </div>
+            <p style="margin-left: 14%; margin-top: 6%; font-size: 160%;"><b>G - 9.81 m/s <sup>2</sup></b></p>
+
+            <p class="belgi" id="iv1"><input class="son form-control" type="text" id="i1" placeholder="000"> <samp
+                    class="samp" id="v1">
+                    n- 0.80 -0.95 %</samp></p>
+            <p   class="belgi" id="iv2"> <input class="ikki form-control" type="text" id="i2" placeholder="000"><samp
+                    class="samp" id="v2">Q - suv oqimining sarfi (m<sup>3</sup>/s)</samp></p>
+            <p class="belgi" id="iv3"><input class="ikki form-control " type="text" id="i3" placeholder="000"><samp
+                    class="samp" id="v3">H - suvning tushish balandligi (m)</samp></p>
+            <p class="belgi d-none " id="iv4"><input class="ikki form-control " type="text" id="i4"
+                    placeholder="000"><samp class="samp" id="v4">H - suvning tushish balandligi (m)</samp></p>
+            <div class="btn-div"><button class="btn " id="calnbtn" onclick="clickBtn()"><samp>Hisoblash</samp></button>
+            </div>
+            <p class="qiymat-p"><samp id="tur">Oqim energiyasi: </samp><samp class="qiymat" id="result">0</samp><samp
+                    id="birlik">kVt/soat</samp> </p>
+            <div class="tanlash-div">
+                <h3 class="tanlash">Agar suv sarfin ma'lum bo'lmasa uni hisoblash usillari</h3>
+            </div>
+
+            <!-- accrdion in -->
+
+            <div class="accordion kataccor z-2" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button tanlash1" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            1.Trapetsional suv tashamasi uchun.
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <strong class="accor">Q = 1.86 * b * h<sup>3/2</sup></strong>
+                            <strong class="accor">b - suv tashamasini kengligi.</strong>
+                            <strong class="accor">h - oqib utuvchi suvning balandligi.</strong>
+                            <button class="btn-accor" onclick="setMethodType(2)">Hisoblash</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item akardiyon">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed tanlash1" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            2. Uchburchak suv tashamasi uchun.
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong class="accor">Q = 1.4 * h<sup>5/2</sup></strong>
+                            <strong class="accor">h- oqib utuvchi suvning balandligi.</strong>
+                            <button class="btn-accor" onclick="setMethodType(3)">Hisoblash</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed tanlash1" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            3. Parabolik suv tashamasi uchun
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <strong class="accor">Q = 0.576 * h<sup>2</sup></strong>
+                            <strong class="accor">h - oqib utuvchi suvning balandligi</strong>
+                            <button class="btn-accor" onclick="setMethodType(4)">Hisoblash</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item tanlash1">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed tanlash1" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseFour">
+                            4. Quvurdan oqib utuvchi suv sarfi uchun
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse akardiyon">
+                        <div class="accordion-body">
+                            <strong class="accor">Q = n * d<sup>2/4</sup> * v</strong>
+                            <strong class="accor">d- quvur diametri</strong>
+                            <strong class="accor">v - suvning tezligi m/s</strong>
+                            <strong class="accor">n- 3.14</strong>
+                            <button class="btn-accor" onclick="setMethodType(5)">Hisoblash</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- accardion out -->
+        </div>
+    </div>
+    <script src="../js/calc.js"></script>
+    <script src="../js/boshPraekt.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,204 @@
+   body {
+    width: 100%;
+    
+   }
+   .none {
+    text-decoration: none;
+   }
+   .iragatsiya {
+    padding-top: 8%;
+   }
+
+    .asosiy_bosh {
+        background-image: url("../img/gies.jpg");
+        /* background-image: url(../img/triangle-solid-black-gold-4k-abstract.jpg); */
+        background-size: cover;
+        padding-top: 5%;
+        padding-left: 0% !important;
+        height: 700px;
+
+    }
+
+    .bosh_h1 {
+        padding-top: 5%;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 4rem;
+        font-family: sans-serif;
+        font-weight: 600;
+        color: #0c560d;
+        width: 80%;
+        line-height: 5rem;
+        text-shadow: 3px 4px rgb(22, 209, 12);
+    }
+
+    .asosiy_orta {
+        background-color: #211208;
+        background-image: url(https://cdn.pixabay.com/photo/2015/07/10/15/13/building-839362_1280.jpg);
+        background-size: 100% !important;
+        height: 600px;
+    }
+
+    .asosiy_oxirgi {
+        background-image: url(https://on-desktop.com/wps/2017Nature_Beautiful_aurora_in_the_night_sky__Iceland_120132_.jpg) !important;
+        background-size: cover !important;
+        height: 790px;
+    }
+
+    .ichki {
+        width: 100%;
+    }
+
+    .ichki p {
+        color: wheat !important;
+        font-size: 1.7rem;
+        font-family: Roboto, Arial;
+        font-style: italic;
+        font-weight: 500;
+        text-align: center;
+        padding-top: 5vw;
+    }
+
+    .ichki h6 {
+        color: white !important;
+        font-size: 1.1rem;
+        font-family: serif !important;
+        letter-spacing: 2px;
+        line-height: 1.5em;
+        overflow: auto;
+    }
+
+    .text_yellov {
+        color: #00FF00;
+    }
+
+    .text_red {
+        color: red;
+    }
+
+    /* futir qisim */
+
+    .futir {
+        background-color: black;
+        /* width:100% !important; */
+    }
+
+   
+
+    .h6-class {
+        height: 550px;
+        overflow: auto;
+    }
+
+    .futir_icons svg {
+        color: blueviolet;
+        text-align: center !important;
+    }
+
+    .vid {
+        /* margin-left: 18%;
+    margin-top: 4%; */
+        position: relative;
+        z-index: 2;
+        height: 600px;
+        padding: 5%;
+    }
+
+    .contact {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        gap: 6px;
+    }
+
+    .name {
+        flex: 1 0 130px;
+        margin: 2% 0 3% 10%;
+        color: aliceblue;
+    }
+
+    
+
+    @media only screen and (max-width : 1200px) {
+        .ichki h6 {
+           
+            font-size: 1rem;
+            font-family: serif !important;
+            letter-spacing: 1.3px;
+            line-height: 1.5em;
+           
+        }
+
+        .nav_logo {
+        
+            width: 4%;
+            height: 3%;
+            display: inline;
+            padding: 10px 10px;
+        }
+    
+
+    }
+
+    
+
+    @media only screen and (max-width : 994px) {
+        .ichki h6 {
+           
+            font-size: 0.9rem;
+            font-family: serif !important;
+            letter-spacing: 1.2px;
+            line-height: 1.4em;
+           
+        }
+        @media only screen and (max-width : 705px) {
+            .asosiy_bosh {
+                padding-top: 8%;
+            }
+        }
+        @media only screen and (max-width : 576px){
+            .iragatsiya {
+                padding-top: 10%;
+            }
+            .bosh_h1 {
+                color: #a6dc10;
+                text-shadow: 3px 4px black;
+                font-size: 40px;
+                padding-top: 2%;
+            }
+            .asosiy_bosh {
+                background-image: url(../img/background.jpg);
+                padding-top: 15%;
+                height: 500px;
+
+            }
+            .vid {
+                height: 400px !important;
+                
+            }
+            .asosiy_orta {
+                height: 450px !important;
+            }
+            .futir {
+                display: flex;
+                justify-content: center;
+            }
+    }
+    @media only screen and (max-width : 350px){
+        .bosh_h1 {
+            font-size: 40px;
+            padding-top: 30%;
+            margin-left: 13%;
+        }
+        .futir {
+            padding-top: 15%;
+            height: 400px;
+        }
+}
+    }
+
+
+    /* 
+
+ 
+*/
